@@ -8,7 +8,7 @@ public class isPalindrom {
 
         String word = scanner.nextLine();
         String reverseWord = reverse.Reverse(word);
-        if (word == reverseWord) {
+        if (word.equals(reverseWord)) {
             System.out.println(word +" is palindrome");
         }else{
             System.out.println(word + " is not palindrome");
