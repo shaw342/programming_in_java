@@ -1,10 +1,16 @@
 package projet;
 
 public class contact {
-    String firstName;
-    String lastName;
-    String PhoneNumber;
+   private String firstName;
+   private String lastName;
+   private String PhoneNumber;
 
+
+   public contact(String firstName,String lastName,String PhoneNumber){
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.PhoneNumber = PhoneNumber;
+   }
     public String getFirstName() {
         return firstName;
     }
